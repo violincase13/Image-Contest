@@ -1,7 +1,7 @@
 # Image-Contest
 A Python script to run an image contest on a Microbit board
 
-First, I created all the necessary variables that will be used later, such as the names of the participants, the names of each section and the names of the images in each category. These have been stored in lists so they can be easily used later.
+Firstly, I created all the necessary variables that will be used later, such as the names of the participants, the names of each section and the names of the images in each category. These have been stored in lists so they can be easily used later.
 
 The next step was to create a function called displayTheSections. It works on the following principle: the content of the category list is retrieved and scrolled with an index (in this case, sectionListIndex). Thus, each category of game images is displayed. For each category, if the player clicks on the logo, it will display its corresponding participants. The display procedure is exactly as described above, except that the variables differ depending on the specifics of the category. To select a participant's name, the player must click on the logo again. Subsequently, the images corresponding to this category will be displayed via a function (for Animals - displayAnimalSectionImages; for Geometric - displayGeometricSectionImages; for Emotions - displayEmotionSectionImages).
 
